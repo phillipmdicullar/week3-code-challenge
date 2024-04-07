@@ -73,12 +73,12 @@ const btn = document.getElementById('buy-ticket');
 // Event listener for "Buy Ticket" button click
 btn.addEventListener('click', function(e) {
     // Get remaining tickets count
-    let remTickets = document.querySelector('#ticket-num').textContent;
+    let leftTickets = document.querySelector('#ticket-num').textContent;
     e.preventDefault();
     // Decrement remaining tickets count if available, else indicate sold out
-    if (remTickets > 0) {
-        document.querySelector('#ticket-num').textContent = remTickets - 1;
-    } else if (parseInt(remTickets, 10) === 0) {
+    if (leftTickets > 0) {
+        document.querySelector('#ticket-num').textContent = leftTickets - 1;
+    } else if (parseInt(leftTickets, 10) === 0) {
         btn.textContent = 'Sold Out';
     }
 });

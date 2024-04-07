@@ -1,8 +1,19 @@
-# Flatdango
 
+# Author
+Philip Emdokolo
+# Date
+7/4/2024
+# Flatdango
 Flatiron Movie Theater is open for business! You will be building out an
 application, Flatdango, that allows a user to purchase movie tickets from the
 theater.
+## Technologies Used
+
+- HTML
+- CSS (Semantic UI)
+- JavaScript
+
+
 
 ## Demo
 
@@ -175,6 +186,13 @@ attempting the bonus deliverables!**
 1. Click on a movie in the menu to replace the currently displayed movie's
    details with the new movie's details. Note that you may have to make an
    additional GET request to access the movie's details.
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
 
 
 
